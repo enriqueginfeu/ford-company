@@ -1,0 +1,89 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { autos } from "../data/autos";
+import RedSocial from "../components/RedSocial.astro";
+import Flotante from "../components/Flotante.astro";
+
+const { auto } = Astro.params;
+
+const info = autos.find((a) => a.id === auto);
+
+if (!info) {
+    return Astro.redirect("/404");
+}
+
+---
+
+<Layout title={`${info.title}`}>
+
+    <div class="relative">
+        <img src={info.img} alt="" width={900} class="m-auto sombra mt-5">
+        <h1 class="text-3xl text-white my-4 absolute top-1 left-5 md:left-96 md:top-1 md:text-5xl 2xl:left-[35rem]">
+            {info.title}
+        </h1>
+    </div>
+
+    <div class="text-center p-4 my-10 ">
+        <div class="grid grid-cols-1 my-4 md:px-3 md:m-auto md:p-10 md:gap-20 lg:w-2/3">
+            <div class="my-5 shadow-2xl rounded-md">
+                <h2 class="font-semibold text-2xl mb-3">
+                    Motor
+                </h2>
+                <p class="p-10">
+                    {info.description.motor}
+                </p>
+            </div>
+            <div class="my-5 shadow-2xl rounded-md">
+                <h2 class="font-semibold text-2xl mb-3">
+                    Tecnologia
+                </h2>
+                <p class="p-10">
+                    {info.description.tecnologia}
+                </p>
+            </div>
+            <div class="my-5 shadow-2xl rounded-md">
+                <h2 class="font-semibold text-2xl mb-3">
+                    Interior
+                </h2>
+                <p class="p-10">
+                     {info.description.interior}
+                </p>
+            </div>
+            <div class="my-5 shadow-2xl rounded-md">
+                <h2 class="font-semibold text-2xl mt-2 mb-3">
+                    Colores Disponibles
+                </h2>
+                <p class="p-10">
+                     {info.description.colores}
+                </p>
+            </div>
+        </div>
+    </div>
+    <div >
+    <div class="2xl:mt-32">
+        <div class="mb-10">
+            <h2 class="text-3xl font-semibold text-center mt-10 2xl:text-5xl 2xl:mb-20">
+                Galeria
+            </h2>
+        </div>
+        <div class="grid grid-cols-2 mb-5 sm:mb-10 md:w-3/4 md:m-auto md:mb-10 lg:w-1/2 lg:m-auto 2xl:place-items-center 2xl:w-2/5 2xl:m-auto gap-1">
+            <div>
+                <img src={info.img1} alt="" class="">
+            </div>
+            <div>
+                <img src={info.img2} alt="" class="">
+            </div>
+            <div>
+                <img src={info.img3} alt="" class="">
+            </div>
+            <div>
+                <img src={info.img4} alt="" class="">
+            </div>
+        </div>
+    </div>
+    
+    <RedSocial />
+
+    <Flotante />
+
+</Layout>

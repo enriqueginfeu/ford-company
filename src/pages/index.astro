@@ -1,0 +1,168 @@
+---
+import { Image } from "astro:assets";
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Card2 from "../components/Card2.astro";
+import logo from "../assets/logo.png";
+import RedSocial from "../components/RedSocial.astro";
+import Flotante from "../components/Flotante.astro";
+---
+
+<Layout title="Inicio">
+	<main></main>
+	<div class="my-10 md:mt-16">
+		<h1 class="text-center text-4xl md:text-6xl md:font-semibold text-blue-900">
+			Bienvenidos al mundo de Ford
+		</h1>
+	</div>
+
+	<div class="relative mb-5">
+		<a href="/electrico">
+			<img src="../src/assets/banner.webp" class="md:py-10" alt="" />
+			<h2
+				class="absolute top-5 left-4 text-xl text-white md:top-20 md:left-10 md:text-6xl lg:top-40 lg:left-36"
+			>
+				El Futuro ya esta Aqui
+			</h2>
+		</a>
+	</div>
+
+	<div class="mb-10 md:grid md:grid-cols-[1fr_2fr] md:mb-5 md:p-5">
+		<div
+			class="color-ford mx-2 my-4 bg-white border-gray-200 rounded-lg shadow dark:border-gray-600"
+		>
+			<img
+				class="rounded-t-lg w-full"
+				src="../src/assets/ford-historia.webp"
+				alt=""
+			/>
+
+			<div class="p-5">
+				<h5
+					class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+				>
+					FORD T
+				</h5>
+				<p class="font-normal text-gray-700 dark:text-gray-400">
+					Conoce la Historia de la Iconica Marca Automotriz
+				</p>
+				<div class="mt-5">
+					<a
+						href="/historia"
+						class="uppercase rounded bg-sky-600 hover:bg-sky-500 text-white py-2 px-7"
+						>Ver Historia
+					</a>
+				</div>
+			</div>
+		</div>
+		<Card
+			titulo="TODOS LOS MODELOS"
+			descripcion="Conoce tu estilo"
+			imagen="../src/assets/modelos.webp"
+			id="modelos"
+		/>
+	</div>
+
+	<div class="md:grid md:grid-cols-2 lg:grid-cols-3 md:p-5">
+		<div class="relative p-2">
+			<a href="/accesorios">
+				<img
+					src="../src/assets/accesorios.webp"
+					alt=""
+					class="rounded-md sombra"
+				/>
+				<h2
+					class="absolute top-2 left-5 text-2xl text-white md:text-2xl lg:text-3xl xl:text-4xl"
+				>
+					Accesorios y Repuestos
+				</h2>
+			</a>
+		</div>
+
+		<div class="relative p-2">
+			<a href="/plan">
+				<img
+					src="../src/assets/plan-ovalo.webp"
+					alt=""
+					class="rounded-md sombra"
+				/>
+				<h2
+					class="absolute top-44 left-28 text-2xl max-sm:top-32 max-sm:left-20 md:text-2xl md:top-28 md:left-16 lg:text-3xl lg:top-28 lg:left-12
+				xl:text-4xl xl:top-44 xl:left-24 2xl:top-56 2xl:left-36"
+				>
+					Plan Ovalo
+				</h2>
+			</a>
+		</div>
+
+		<div class="relative p-2">
+			<a href="/service">
+				<img
+					src="../src/assets/service.webp"
+					alt=""
+					class="rounded-md sombra"
+				/>
+				<h2
+					class="absolute top-48 left-10 w-12 text-2xl text-white max-sm:top-32 md:text-2xl md:top-24 lg:text-3xl lg:top-24 xl:text-4xl xl:top-48 2xl:top-64"
+				>
+					Servicio de Mantenimiento
+				</h2>
+			</a>
+		</div>
+	</div>
+
+	<div
+		class="grid grid-cols-[2fr_1fr] p-4 text-white mb-10 mt-5 lg:mt-16 color-ford"
+	>
+		<div class="text-center m-auto">
+			<h2 class="text-4xl lg:text-6xl">
+				Conoce la nueva Generacion de Ford
+			</h2>
+		</div>
+		<div class="w-44 m-auto lg:w-56">
+			<Image src={logo} alt="" />
+		</div>
+	</div>
+
+	<div class="md:p-5 lg:grid lg:grid-cols-2">
+		<Card2
+			imagen="../src/assets/territory.webp"
+			titulo="Nueva Ford Territory"
+			descripcion="Conoce la nueva generacion."
+			id="1"
+		/>
+		<Card2
+			imagen="../src/assets/ranger.webp"
+			titulo="Nueva Ford Ranger"
+			descripcion="Conoce la nueva generacion."
+			id="2"
+		/>
+		<Card2
+			imagen="../src/assets/mustang7gen.webp"
+			titulo="Ford Mustang 7ma Generacion"
+			descripcion="Conoce la nueva generacion."
+			id="3"
+		/>
+		<Card2
+			imagen="../src/assets/raptor.webp"
+			titulo="Ford Ranger Raptor"
+			descripcion="Descubre la nueva Raptor."
+			id="4"
+		/>
+	</div>
+	<div class="my-20">
+		<img src="../src/assets/ranger-exp.webp" class="m-auto sombra" alt="" />
+		<div class="mt-5 text-center">
+			<a href="/experience" class="text-xl text-white bg-sky-600 hover:bg-sky-500 rounded-3xl py-1 px-5 sombra"
+				>Inscribirse</a
+			>
+		</div>
+	</div>
+
+	<RedSocial />
+
+	<Flotante />
+
+</Layout>
+
+<style></style>

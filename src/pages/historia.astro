@@ -1,0 +1,105 @@
+---
+import { Image } from "astro:assets";
+import Layout from "../layouts/Layout.astro";
+import fordT from "../assets/fordT.webp"
+import RedSocial from "../components/RedSocial.astro";
+import Flotante from "../components/Flotante.astro";
+
+---
+
+<Layout title="La hitoria de Ford">
+    <div class="text-blue-900">
+        <h1 class="text-center text-2xl my-10 font-semibold md:text-3xl lg:text-5xl">
+            Un poco de historia
+        </h1>
+        <div class="px-2 flex flex-col md:justify-center md:mb-10 md:flex-row">
+            <div>
+                <img src="../src/assets/fordT.webp" alt="">
+            </div>
+            <div>
+                <img src="../src/assets/mustang-electrico-2.webp" alt="">     
+            </div>
+        </div>
+        <p class="p-4 mb-5 md:text-3xl md:text-center">
+            Nuestra historia es una de las más icónicas en la industria
+            automotriz y ha desempeñado un papel fundamental en la evolución de
+            los automóviles a lo largo del siglo XX. Aquí tienes un resumen de
+            los momentos más destacados de la historia de Ford:
+        </p>
+        <div class="space-y-2 md:text-2xl md:p-7">
+            <p class="p-3">
+                1. Fundación de Ford: La compañía Ford Motor Company fue fundada
+                el 16 de junio de 1903 por Henry Ford y un grupo de inversores
+                en Detroit, Michigan. Su visión era fabricar automóviles
+                asequibles para las masas, y así nació el Ford Model T en 1908.
+                Este modelo revolucionario se convirtió en un gran éxito y se
+                produjeron millones de unidades.
+            </p>
+
+            <p class="p-3">
+                2. Línea de montaje: Henry Ford es ampliamente conocido por su
+                innovación en el proceso de fabricación. Introdujo la línea de
+                montaje en 1913, una técnica de producción que permitía
+                ensamblar automóviles de manera más eficiente, lo que redujo
+                drásticamente los costos de producción y, en última instancia,
+                el precio de los automóviles. Esto hizo que los automóviles
+                fueran aún más asequibles para el público en general.
+            </p>
+
+            <p class="p-3">
+                3. Expansión global: Ford se convirtió en una marca global a lo
+                largo del siglo XX, abriendo plantas de fabricación en todo el
+                mundo. Esto contribuyó a la difusión de la marca y la
+                popularidad de sus vehículos.
+            </p>
+
+            <p class="p-3">
+                4. Innovación constante: A lo largo de su historia, Ford ha sido
+                un líder en innovación automotriz. Introdujo sistemas de
+                seguridad, como cinturones de seguridad de tres puntos, y
+                tecnologías avanzadas, como el sistema de conectividad SYNC, que
+                mejoraron la experiencia del conductor.
+            </p>
+
+            <p class="p-3">
+                5. Iconos automotrices: Ford ha producido algunos de los
+                automóviles más emblemáticos de la historia, incluyendo el Ford
+                Mustang en 1964, que se convirtió en un símbolo de la cultura
+                automovilística estadounidense, y la Ford F-Series, una línea de
+                camiones que ha sido la más vendida en Estados Unidos durante
+                décadas.
+            </p>
+
+            <p class="p-3">
+                6. Crisis y recuperación: A lo largo de su historia, Ford ha
+                enfrentado desafíos económicos, como la Gran Depresión y la
+                crisis financiera de 2008. Sin embargo, la compañía ha
+                demostrado resiliencia y ha logrado recuperarse.
+            </p>
+
+            <p class="p-3">
+                7. Enfoque en la movilidad del futuro: En los últimos años, Ford
+                ha estado trabajando en soluciones de movilidad del futuro,
+                incluyendo vehículos eléctricos, autónomos y servicios de
+                movilidad compartida, como FordPass.
+            </p>
+
+            <p class="p-3">
+                8. Legado duradero: La marca Ford ha dejado una huella indeleble
+                en la industria automotriz y sigue siendo una de las más
+                reconocidas y respetadas en todo el mundo.
+            </p>
+        </div>
+        <p class="p-3 mb-5 md:mb-20 md:text-2xl">
+            En resumen, la historia de Ford es una historia de innovación,
+            visión empresarial y perseverancia que ha dado forma a la industria
+            automotriz tal como la conocemos hoy en día. Desde el Model T hasta
+            los vehículos eléctricos del futuro, Ford ha sido un pionero en la
+            fabricación de automóviles a lo largo de los años.
+        </p>
+    </div>
+    
+    <RedSocial />
+
+    <Flotante />
+</Layout>

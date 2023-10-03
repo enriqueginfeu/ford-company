@@ -1,0 +1,99 @@
+---
+import { ViewTransitions } from "astro:transitions";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+
+interface Props {
+	title: string;
+}
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+			rel="stylesheet"
+		/>
+		<script
+			is:inline
+			src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"
+		></script>
+		<meta name="generator" content={Astro.generator} />
+		<ViewTransitions />
+		<title>Ford - {title}</title>
+	</head>
+	<body>
+		<Header />
+		<slot />
+		<Footer />
+	</body>
+</html>
+<style is:global>
+	:root {
+		--accent: 136, 58, 234;
+		--accent-light: 224, 204, 250;
+		--accent-dark: 49, 10, 101;
+		--accent-gradient: linear-gradient(
+			45deg,
+			rgb(var(--accent)),
+			rgb(var(--accent-light)) 30%,
+			white 60%
+		);
+	}
+	html {
+		font-family: system-ui, sans-serif;
+		background-size: 224px;
+		color: black;
+	}
+	code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	h4 {
+		padding-top: 0.3rem;
+	}
+
+	h5 {
+		padding-bottom: 0.6rem;
+	}
+
+	svg {
+		width: 150px;
+	}
+
+	.sombra {
+		box-shadow: 10px 10px 20px -2px rgba(0, 0, 0, 0.75);
+		-webkit-box-shadow: 10px 10px 20px -2px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 10px 10px 20px -2px rgba(0, 0, 0, 0.75);
+	}
+
+	.color-ford {
+		background: #054a72;
+		background: -webkit-linear-gradient(to right, #0e6ca2, #0c5a87);
+		background: linear-gradient(to right, #0e6ca2, #0c5a87);
+	}
+
+	a.color-ford:hover {
+		background: #016dac;
+		background: -webkit-linear-gradient(to right, #016dac, #0a6fa9);
+		background: linear-gradient(to right, #016dac, #0a6fa9);
+	}
+</style>

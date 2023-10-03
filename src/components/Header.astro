@@ -1,0 +1,174 @@
+---
+
+import { Image } from "astro:assets";
+import logo from "../assets/logo.png";
+---
+
+<header class="sticky top-1 left-0 right-0 z-10">
+    <nav class="nav">
+        <div class="logo-titulo">
+            <a href="/">
+                <Image src={logo} width={100} alt="" />
+            </a>
+        </div>
+        <div class="flex justify-center items-center">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="ul-nav">
+                <li><a class="active" href="/">Inicio</a></li>
+                <li><a href="/historia">Historia</a></li>
+                <li><a href="/modelos">Modelos</a></li>
+                <li><a href="/accesorios">Accesorios</a></li>
+                <li><a href="/plan">Planes</a></li>
+                <li><a href="/service">Service</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<style>
+
+/* NAVBAR */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: .5rem;
+    background: #054a72;
+    background: -webkit-linear-gradient(to right, #0e6ca2, #0c5a87);
+    background: linear-gradient(to right, #0e6ca2, #0c5a87);
+}
+
+@media (min-width: 768px) {
+    .nav {
+        justify-content: space-around;
+    }
+}
+
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+@media (min-width: 768px) {
+    .logo-titulo {
+        margin-left: 0rem;
+    }
+}
+
+#menu {
+    margin: auto;
+    margin-right: 4rem;
+    width: 30rem;
+}  
+
+#btn-nav {
+    display: none;
+}
+
+.ul-nav {
+    display: inline;
+    gap: 1rem;
+    width: 35rem;
+}
+
+@media (max-width: 858px) {
+    .ul-nav {
+        width: 100%;
+        
+    }
+}
+
+/* MENU HAMBURGUESA */
+
+nav ul {
+    float: right;
+    margin-right: -10rem;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    margin: 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0rem 0.5rem;
+}
+
+nav ul li a:hover {
+    color: #70a5c3;
+}
+
+li a.active,
+li a:hover {
+    transition: .4s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    .enlace {
+        padding-left: 20px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #000000;
+        background: -webkit-linear-gradient(to right, #054a72, #242424);
+        background: linear-gradient(to right, #054a72, #2424249d);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    li a:hover,
+    li a.active {
+        background: none;
+
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+}
+</style>

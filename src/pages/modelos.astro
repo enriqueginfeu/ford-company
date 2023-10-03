@@ -1,0 +1,39 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { autos } from "../data/autos";
+import Auto from "../components/Auto.astro";
+import RedSocial from "../components/RedSocial.astro";
+import Flotante from "../components/Flotante.astro";
+---
+
+<Layout
+    title="Autos"
+>
+    <div class="mt-8">
+        <h1 class="text-center text-2xl md:text-3xl 2xl:text-4xl">
+            Elegi tu proximo Ford
+        </h1>
+    </div>
+    <ul class="my-10 md:grid md:grid-cols-3">
+            {autos?.map(({id, title, img, description}) => {
+                return (
+                        <div class="p-3">
+                            <li>
+                                <Auto 
+                                    id={id}
+                                    title={title}
+                                    img={img}
+                                    description={description.motor}
+                                />    
+                            </li>
+                        </div>
+                )
+            }
+            )}
+    </ul>
+
+    <RedSocial />
+
+    <Flotante />
+
+</Layout>

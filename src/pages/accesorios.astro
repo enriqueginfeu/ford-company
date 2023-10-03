@@ -1,0 +1,51 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { accesorios} from "../data/accesorios";
+import Accesorio from "../components/Accesorio.astro";
+import RedSocial from "../components/RedSocial.astro";
+import Flotante from "../components/Flotante.astro";
+---
+
+<Layout
+    title="Accesorios"
+>
+    <div class="grid grid-cols-3 gap-5 mx-5 my-10 md:mx-0 md:place-items-center md:gap-0 2xl:my-32">
+        <div class="md:w-3/4 lg:w-1/2 2xl:end-3/4 sombra">
+            <img src="../src/assets/repuestos.webp" alt="">
+        </div>
+        <div class="md:w-3/4 lg:w-1/2 2xl:end-3/4 sombra">
+            <img src="../src/assets/garantia.webp" alt="">
+        </div>
+        <div class="md:w-3/4 lg:w-1/2 2xl:end-3/4 sombra">
+            <img src="../src/assets/envios.webp" alt="">
+        </div>
+    </div>
+    <div class="mt-10 text-center p-2 2xl:w-1/2 2xl:m-auto 2xl:mt-16">
+        <h1 class="text-blue-900 text-3xl md:text-4xl 2xl:text-6xl">
+            Obtene repuestos y accesorios para darle un estilo diferente a tu Ford
+        </h1>
+    </div>
+    <ul class="my-10 md:grid md:grid-cols-2 2xl:grid-cols-3">
+            {accesorios.map(({id, titulo, img, descripcion, precio}) => {
+                return (
+                        <div class="p-3">
+                            <li>
+                                <Accesorio 
+                                    id={id}
+                                    titulo={titulo}
+                                    img={img}
+                                    descripcion={descripcion}
+                                    precio={precio}
+                                />    
+                            </li>
+                        </div>
+                )
+            }
+            )}
+    </ul>
+
+    <RedSocial />
+
+    <Flotante />
+
+</Layout>
