@@ -3,7 +3,7 @@ import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import Card2 from "../components/Card2.astro";
-import logo from "../assets/logo.png";
+import logo from "../../public/img/logo.png";
 import RedSocial from "../components/RedSocial.astro";
 import Flotante from "../components/Flotante.astro";
 ---
@@ -18,7 +18,7 @@ import Flotante from "../components/Flotante.astro";
 
 	<div class="relative mb-5">
 		<a href="/electrico">
-			<img src="../src/assets/banner.webp" class="md:py-10" alt="" />
+			<img src="../../public/img/banner.webp" class="md:py-10" alt="" />
 			<h2
 				class="absolute top-5 left-4 text-xl text-white md:top-20 md:left-10 md:text-6xl lg:top-40 lg:left-36"
 			>
@@ -33,7 +33,7 @@ import Flotante from "../components/Flotante.astro";
 		>
 			<img
 				class="rounded-t-lg w-full"
-				src="../src/assets/ford-historia.webp"
+				src="../../public/img/ford-historia.webp"
 				alt=""
 			/>
 
@@ -58,7 +58,7 @@ import Flotante from "../components/Flotante.astro";
 		<Card
 			titulo="TODOS LOS MODELOS"
 			descripcion="Conoce tu estilo"
-			imagen="../src/assets/modelos.webp"
+			imagen="../../public/img/modelos.webp"
 			id="modelos"
 		/>
 	</div>
@@ -67,7 +67,7 @@ import Flotante from "../components/Flotante.astro";
 		<div class="relative p-2">
 			<a href="/accesorios">
 				<img
-					src="../src/assets/accesorios.webp"
+					src="../../public/img/accesorios.webp"
 					alt=""
 					class="rounded-md sombra"
 				/>
@@ -82,7 +82,7 @@ import Flotante from "../components/Flotante.astro";
 		<div class="relative p-2">
 			<a href="/plan">
 				<img
-					src="../src/assets/plan-ovalo.webp"
+					src="../../public/img/plan-ovalo.webp"
 					alt=""
 					class="rounded-md sombra"
 				/>
@@ -98,7 +98,7 @@ import Flotante from "../components/Flotante.astro";
 		<div class="relative p-2">
 			<a href="/service">
 				<img
-					src="../src/assets/service.webp"
+					src="../../public/img/service.webp"
 					alt=""
 					class="rounded-md sombra"
 				/>
@@ -126,32 +126,32 @@ import Flotante from "../components/Flotante.astro";
 
 	<div class="md:p-5 lg:grid lg:grid-cols-2">
 		<Card2
-			imagen="../src/assets/territory.webp"
+			imagen="../../public/img/territory.webp"
 			titulo="Nueva Ford Territory"
 			descripcion="Conoce la nueva generacion."
 			id="1"
 		/>
 		<Card2
-			imagen="../src/assets/ranger.webp"
+			imagen="../../public/img/ranger.webp"
 			titulo="Nueva Ford Ranger"
 			descripcion="Conoce la nueva generacion."
 			id="2"
 		/>
 		<Card2
-			imagen="../src/assets/mustang7gen.webp"
+			imagen="../../public/img/mustang7gen.webp"
 			titulo="Ford Mustang 7ma Generacion"
 			descripcion="Conoce la nueva generacion."
 			id="3"
 		/>
 		<Card2
-			imagen="../src/assets/raptor.webp"
+			imagen="../../public/img/raptor.webp"
 			titulo="Ford Ranger Raptor"
 			descripcion="Descubre la nueva Raptor."
 			id="4"
 		/>
 	</div>
 	<div class="my-20">
-		<img src="../src/assets/ranger-exp.webp" class="m-auto sombra" alt="" />
+		<img src="../../public/img/ranger-exp.webp" class="m-auto sombra" alt="" />
 		<div class="mt-5 text-center">
 			<a href="/experience" class="text-xl text-white bg-sky-600 hover:bg-sky-500 rounded-3xl py-1 px-5 sombra"
 				>Inscribirse</a

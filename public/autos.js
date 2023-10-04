@@ -9,11 +9,11 @@ export const autos = [
             colores: 'Gris Mercurio, Azul Metálico, Blanco Oxford.',
             transmision: 'Automatica de 7 Velocidades.'
         },
-        img: '../src/assets/territory.webp',
-        img1: '../src/assets/territory1.webp',
-        img2: '../src/assets/territory2.webp',
-        img3: '../src/assets/territory3.webp',
-        img4: '../src/assets/territory4.webp'
+        img: '../../public/img/territory.webp',
+        img1: '../../public/img/territory1.webp',
+        img2: '../../public/img/territory2.webp',
+        img3: '../../public/img/territory3.webp',
+        img4: '../../public/img/territory4.webp'
 
     },
     {
@@ -26,11 +26,11 @@ export const autos = [
             colores: 'Plata Metalizado, Gris Magnetic, Azul Belice, Rojo Bari, Negro Perlado y Naranja Terra.',
             transmision: 'Automatica de 10 Velocidades.'
         },
-        img: '../src/assets/ranger.webp',
-        img1: '../src/assets/ranger1.webp',
-        img2: '../src/assets/ranger2.webp',
-        img3: '../src/assets/ranger3.webp',
-        img4: '../src/assets/ranger4.webp'
+        img: '../../public/img/ranger.webp',
+        img1: '../../public/img/ranger1.webp',
+        img2: '../../public/img/ranger2.webp',
+        img3: '../../public/img/ranger3.webp',
+        img4: '../../public/img/ranger4.webp'
          
     },
     {
@@ -43,11 +43,11 @@ export const autos = [
             colores: 'Blanco Oxford, Gris Mercurio y Negro Ebony',
             transmision: 'Automatica de 10 Velocidades.'
         },
-        img: '../src/assets/mustang7gen.webp',
-        img1: '../src/assets/mustang1.webp',
-        img2: '../src/assets/mustang2.webp',
-        img3: '../src/assets/mustang3.webp',
-        img4: '../src/assets/mustang4.webp'
+        img: '../../public/img/mustang7gen.webp',
+        img1: '../../public/img/mustang1.webp',
+        img2: '../../public/img/mustang2.webp',
+        img3: '../../public/img/mustang3.webp',
+        img4: '../../public/img/mustang4.webp'
     },
     {
         id: '4',
@@ -59,11 +59,11 @@ export const autos = [
             colores: 'Naranja Metálico, Blanco Ártico, Gris Piedra y Azul Performance.',
             transmision: 'Automatica de 10 Velocidades.'
         },
-        img: '../src/assets/raptor.webp',
-        img1: '../src/assets/ranger-raptor1.webp',
-        img2: '../src/assets/ranger-raptor2.webp',
-        img3: '../src/assets/ranger-raptor3.webp',
-        img4: '../src/assets/ranger-raptor4.webp'
+        img: '../../public/img/raptor.webp',
+        img1: '../../public/img/ranger-raptor1.webp',
+        img2: '../../public/img/ranger-raptor2.webp',
+        img3: '../../public/img/ranger-raptor3.webp',
+        img4: '../../public/img/ranger-raptor4.webp'
     },
     {
         id: '5',
@@ -75,11 +75,11 @@ export const autos = [
             colores: 'Gris Mercurio, Gris Plata, Gris Cactus, Azul Relampago, Negro Pantera y Blanco Oxford',
             transmision: 'Automatica de 8 Velocidades',
         },
-        img: '../src/assets/maverick.webp',
-        img1: '../src/assets/maverick1.webp',
-        img2: '../src/assets/maverick2.webp',
-        img3: '../src/assets/maverick3.webp',
-        img4: '../src/assets/maverick4.webp'
+        img: '../../public/img/maverick.webp',
+        img1: '../../public/img/maverick1.webp',
+        img2: '../../public/img/maverick2.webp',
+        img3: '../../public/img/maverick3.webp',
+        img4: '../../public/img/maverick4.webp'
     },
     {
         id: '6',
@@ -91,11 +91,11 @@ export const autos = [
             colores: 'Gris Mercurio, Gris Plata, Gris Cactus, Negro Pantera y Blanco Oxford',
             transmision: 'Automatica de 8 Velocidades',
         },
-        img: '../src/assets/bronco.webp',
-        img1: '../src/assets/bronco1.webp',
-        img2: '../src/assets/bronco2.webp',
-        img3: '../src/assets/bronco3.webp',
-        img4: '../src/assets/bronco4.webp'
+        img: '../../public/img/bronco.webp',
+        img1: '../../public/img/bronco1.webp',
+        img2: '../../public/img/bronco2.webp',
+        img3: '../../public/img/bronco3.webp',
+        img4: '../../public/img/bronco4.webp'
     },
     {
         id: '7',
@@ -107,11 +107,11 @@ export const autos = [
             colores: 'Gris Mercurio, Azul Vapor, Plata Lunar, Negro Pantera y Blanco Oxfrod',
             transmision: 'Automatica de 8 Velocidades',
         },
-        img: '../src/assets/kuga.webp',
-        img1: '../src/assets/kuga1.webp',
-        img2: '../src/assets/kuga2.webp',
-        img3: '../src/assets/kuga3.webp',
-        img4: '../src/assets/kuga4.webp'
+        img: '../../public/img/kuga.webp',
+        img1: '../../public/img/kuga1.webp',
+        img2: '../../public/img/kuga2.webp',
+        img3: '../../public/img/kuga3.webp',
+        img4: '../../public/img/kuga4.webp'
     },
     {
         id: '8',
@@ -123,11 +123,11 @@ export const autos = [
             colores: 'Negro Ebony, Roja Racing y Blanco Metalizado.',
             transmision: 'Automatica de 10 Velocidades',
         },
-        img: '../src/assets/f-150.webp',
-        img1: '../src/assets/f1501.webp',
-        img2: '../src/assets/f1502.webp',
-        img3: '../src/assets/f1503.webp',
-        img4: '../src/assets/f1504.webp'
+        img: '../../public/img/f-150.webp',
+        img1: '../../public/img/f1501.webp',
+        img2: '../../public/img/f1502.webp',
+        img3: '../../public/img/f1503.webp',
+        img4: '../../public/img/f1504.webp'
     },
     {
         id: '9',
@@ -139,10 +139,10 @@ export const autos = [
             colores: 'Azul Relampago, Blanco Oxford y Negro Ebony.',
             transmision: 'Automatica de 10 Velocidades',
         },
-        img: '../src/assets/f-150-raptor.webp',
-        img1: '../src/assets/f150-raptor1.webp',
-        img2: '../src/assets/f150-raptor2.webp',
-        img3: '../src/assets/f150-raptor3.webp',
-        img4: '../src/assets/f150-raptor4.webp'
+        img: '../../public/img/f-150-raptor.webp',
+        img1: '../../public/img/f150-raptor1.webp',
+        img2: '../../public/img/f150-raptor2.webp',
+        img3: '../../public/img/f150-raptor3.webp',
+        img4: '../../public/img/f150-raptor4.webp'
     }
 ]
