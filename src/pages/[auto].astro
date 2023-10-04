@@ -17,7 +17,7 @@ if (!info) {
 <Layout title={`${info.title}`}>
 
     <div class="relative">
-        <img src={info.img} alt="" width={900} class="m-auto sombra mt-5">
+        <img src={info.img} alt={`${info.title}`} width={900} class="m-auto sombra mt-5">
         <h1 class="text-3xl text-white my-4 absolute top-1 left-5 md:left-96 md:top-1 md:text-5xl 2xl:left-[35rem]">
             {info.title}
         </h1>
@@ -68,16 +68,16 @@ if (!info) {
         </div>
         <div class="grid grid-cols-2 mb-5 sm:mb-10 md:w-3/4 md:m-auto md:mb-10 lg:w-1/2 lg:m-auto 2xl:place-items-center 2xl:w-2/5 2xl:m-auto gap-1">
             <div>
-                <img src={info.img1} alt="" class="">
+                <img src={info.img1} alt={`${info.title}`}>
             </div>
             <div>
-                <img src={info.img2} alt="" class="">
+                <img src={info.img2} alt={`${info.title}`}>
             </div>
             <div>
-                <img src={info.img3} alt="" class="">
+                <img src={info.img3} alt={`${info.title}`}>
             </div>
             <div>
-                <img src={info.img4} alt="" class="">
+                <img src={info.img4} alt={`${info.title}`}>
             </div>
         </div>
     </div>

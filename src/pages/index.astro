@@ -25,7 +25,7 @@ import Flotante from "../components/Flotante.astro";
 					width="1920"
 					height="600"
 					class="md:py-10"
-					alt=""
+					alt="Banner Mustang Electrico"
 				/>
 				<h2
 					class="absolute top-5 left-4 text-xl text-white md:top-20 md:left-10 md:text-6xl lg:top-40 lg:left-36"
@@ -44,7 +44,7 @@ import Flotante from "../components/Flotante.astro";
 					width="1280"
 					height="1423"
 					class="rounded-t-lg w-full"
-					alt=""
+					alt="Portada Historia de Ford"
 				/>
 
 				<div class="p-5">
@@ -78,8 +78,8 @@ import Flotante from "../components/Flotante.astro";
 				<a href="/accesorios">
 					<img
 						src="/accesorios.webp"
-						alt=""
 						class="rounded-md sombra"
+						alt="Portada Accesorios Ford"
 					/>
 					<h2
 						class="absolute top-2 left-5 text-2xl text-white md:text-2xl lg:text-3xl xl:text-4xl"
@@ -93,8 +93,8 @@ import Flotante from "../components/Flotante.astro";
 				<a href="/plan">
 					<img
 						src="/plan-ovalo.webp"
-						alt=""
 						class="rounded-md sombra"
+						alt="Portada Plan Ovalo Ford"
 					/>
 					<h2
 						class="absolute top-44 left-28 text-2xl max-sm:top-32 max-sm:left-20 md:text-2xl md:top-28 md:left-16 lg:text-3xl lg:top-28 lg:left-12
@@ -107,7 +107,13 @@ import Flotante from "../components/Flotante.astro";
 
 			<div class="relative p-2">
 				<a href="/service">
-					<img src="/service.webp" alt="" class="rounded-md sombra" />
+					<Image 
+						src="/service.webp"
+						width="1024"
+						height="660"
+						class="rounded-md sombra" 
+						alt="Portada Service Ford" 
+						/>
 					<h2
 						class="absolute top-48 left-10 w-12 text-2xl text-white max-sm:top-32 md:text-2xl md:top-24 lg:text-3xl lg:top-24 xl:text-4xl xl:top-48 2xl:top-64"
 					>
@@ -126,7 +132,10 @@ import Flotante from "../components/Flotante.astro";
 				</h2>
 			</div>
 			<div class="w-36 m-auto lg:w-56">
-				<Image src={logo} alt="" />
+				<Image 
+					src={logo} 
+					alt="Logo Ford" 
+				/>
 			</div>
 		</div>
 
@@ -157,7 +166,13 @@ import Flotante from "../components/Flotante.astro";
 			/>
 		</div>
 		<div class="my-20">
-			<img src="/ranger-exp.webp" class="m-auto sombra" alt="" />
+			<Image 
+				src="/ranger-exp.webp"
+				width="1440"
+				height="600"
+				class="m-auto sombra" 
+				alt="Portada Ranger Experience 2023" 
+			/>
 			<div class="mt-5 text-center">
 				<a
 					href="/experience"
