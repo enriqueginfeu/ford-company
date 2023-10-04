@@ -1,7 +1,7 @@
 ---
+import { Image } from "astro:assets";
 import RedSocial from "../components/RedSocial.astro";
 import Layout from "../layouts/Layout.astro";
-
 ---
 
 <Layout
@@ -9,8 +9,20 @@ import Layout from "../layouts/Layout.astro";
 >
     <div class="mt-2 text-white relative">
         <div>
-            <img src="../../public/fordpass-banner-sm.webp" class="w-full lg:hidden" alt="">
-            <img src="../../public/fordpass-banner.webp" class="w-full hidden lg:flex" alt="">
+            <Image 
+                src="/fordpass-banner-sm.webp"
+                width="480"
+                height="700"
+                class="w-full lg:hidden" 
+                alt=""
+            />
+            <Image 
+                src="/fordpass-banner.webp"
+                width="480"
+                height="700" 
+                class="w-full hidden lg:flex" 
+                alt=""
+            />
         </div>
         <div class="absolute top-12 left-[3.5rem] text-center md:left-64 lg:top-96 lg:left-[60rem] 2xl:top-[35rem] 2xl:left-[75rem]">
             <h2 class="text-2xl lg:text-3xl 2xl:text-5xl">

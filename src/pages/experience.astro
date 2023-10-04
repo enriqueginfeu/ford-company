@@ -3,16 +3,25 @@ import { Image } from "astro:assets";
 import Flotante from "../components/Flotante.astro";
 import RedSocial from "../components/RedSocial.astro";
 import Layout from "../layouts/Layout.astro";
-import bannerSM from "../../public/exp.webp";
-import bannerXL from "../../public/ranger-exp.webp";
-
 ---
 
 <Layout title="Ranger Experience">
     <div class="mt-2 text-blue-900">
         <div class="relative">
-            <Image src={bannerSM} class="m-auto w-full lg:hidden" alt="" />
-            <Image src={bannerXL} class="m-auto w-full hidden lg:flex" alt="" />
+            <Image 
+                src="/exp.webp"  
+                width="480"
+                height="700"
+                alt="" 
+                class="m-auto w-full lg:hidden" 
+                />
+            <Image 
+                src="/ranger-exp.webp"
+                width="600"
+                height="1440" 
+                class="m-auto w-full hidden lg:flex" 
+                alt="" 
+                />
         </div>
         <div
             class="absolute top-72 left-1 text-xl text-center text-white sm:bottom-28 sm:left-24 md:top-[30rem] md:left-[9.4rem] xl:left-[20rem] xl:top-[22rem] xl:text-4xl 2xl:top-[28rem] 2xl:left-[35.5rem]"
@@ -274,21 +283,25 @@ import bannerXL from "../../public/ranger-exp.webp";
                         width="400"
                         height="300"
                         alt="circuito 2 experience 2023"
+                        class="m-auto"
                     />
                 </div>
                 <div>
                     <Image
-                        src="/public/circuito2.webp"
+                        src="/circuito2.webp"
                         width="400"
                         height="300"
                         alt="circuito 2 experience 2023"
+                        class="m-auto my-4"
                     />
                 </div>
                 <div>
-                    <img
-                        src="../../public/circuito3.webp"
-                        class="m-auto w-full p-4"
-                        alt=""
+                    <Image
+                        src="/circuito3.webp"
+                        width="400"
+                        height="300"
+                        alt="circuito 2 experience 2023"
+                        class="m-auto"
                     />
                 </div>
             </div>
@@ -300,25 +313,55 @@ import bannerXL from "../../public/ranger-exp.webp";
                 Galeria
             </h2>
             <div
-                class="grid grid-cols-2 md:grid-cols-3 2xl:place-items-center 2xl:w-3/4 2xl:m-auto mt-5 mb-10 gap-1"
+                class="p-2 grid grid-cols-2 md:grid-cols-3 2xl:place-items-center 2xl:w-3/4 2xl:m-auto mt-5 mb-10 gap-1"
             >
                 <div>
-                    <img src="../../public/exp-1.webp" alt="" />
+                    <Image
+                    src="/exp-1.webp"
+                    width="500"
+                    height="500"
+                    alt="circuito 2 experience 2023"
+                />
                 </div>
                 <div>
-                    <img src="../../public/exp-2.webp" alt="" />
+                    <Image
+                    src="/exp-2.webp"
+                    width="500"
+                    height="500"
+                    alt="circuito 2 experience 2023"
+                />
                 </div>
                 <div>
-                    <img src="../../public/exp-3.webp" alt="" />
+                    <Image
+                    src="/exp-3.webp"
+                    width="500"
+                    height="500"
+                    alt="circuito 2 experience 2023"
+                />
                 </div>
                 <div>
-                    <img src="../../public/exp-4.webp" alt="" />
+                    <Image
+                    src="/exp-4.webp"
+                    width="500"
+                    height="500"
+                    alt="circuito 2 experience 2023"
+                />
                 </div>
                 <div>
-                    <img src="../../public/exp-5.webp" alt="" />
+                    <Image
+                    src="/exp-5.webp"
+                    width="500"
+                    height="500"
+                    alt="circuito 2 experience 2023"
+                />
                 </div>
                 <div>
-                    <img src="../../public/exp-6.webp" alt="" />
+                    <Image
+                    src="/exp-6.webp"
+                    width="500"
+                    height="500"
+                    alt="circuito 2 experience 2023"
+                />
                 </div>
             </div>
         </div>
@@ -331,7 +374,7 @@ import bannerXL from "../../public/ranger-exp.webp";
 
 <style>
     .modal-bg {
-        background-image: url(../assets/ranger-exp-banner.webp);
+        background-image: url(/ranger-exp-banner.webp);
         background-size: auto;
         background-repeat: no-repeat;
         background-position: center;

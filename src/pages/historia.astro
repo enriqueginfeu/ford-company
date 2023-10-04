@@ -1,11 +1,8 @@
 ---
 import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
-import fordT from "../../public/fordT.webp"
-import mustang from "../../public/mustang-electrico-2.webp"
 import RedSocial from "../components/RedSocial.astro";
 import Flotante from "../components/Flotante.astro";
-
 ---
 
 <Layout title="La hitoria de Ford">
@@ -15,10 +12,20 @@ import Flotante from "../components/Flotante.astro";
         </h1>
         <div class="px-2 flex flex-col md:justify-center md:mb-10 md:flex-row">
             <div>
-                <Image src={fordT} alt="" />
+                <Image 
+                    src="/fordT.webp"
+                    width="850"
+                    height="530"
+                    alt="" 
+                    />
             </div>
             <div>
-                <Image src={mustang} alt="" />     
+                <Image 
+                src="/mustang-electrico-2.webp"
+                width="850"
+                height="530"
+                alt="" 
+                />     
             </div>
         </div>
         <p class="p-4 mb-5 md:text-3xl md:text-center">
