@@ -5,7 +5,7 @@ export const accesorios = [
         descripcion: 'Kit Tuercas Antirrobo',
         precio: '50.000',
 
-        img: '../../public/img/tuercas1.webp'
+        img: '../../tuercas1.webp'
     },
     {
         id: 'mustang-calco1',
@@ -13,7 +13,7 @@ export const accesorios = [
         descripcion: 'Calcomanías vinilo negro doble linea',
         precio: '300.000',
 
-        img: '../../public/img/mustang-calco2.webp' 
+        img: '../../mustang-calco2.webp' 
     },
     {
         id: 'mustang-calco2',
@@ -21,7 +21,7 @@ export const accesorios = [
         descripcion: 'Calcomanías vinilo blanca doble linea',
         precio: '300.000',
 
-        img: '../../public/img/mustang-calco1.webp' 
+        img: '../../mustang-calco1.webp' 
     },
     {
         id: 'mustang-aleron1',
@@ -29,7 +29,7 @@ export const accesorios = [
         descripcion: 'Alerón largo',
         precio: '560.000',
 
-        img: '../../public/img/mustang-aleron2.webp' 
+        img: '../../mustang-aleron2.webp' 
     },
     {
         id: 'mustang-aleron2',
@@ -37,7 +37,7 @@ export const accesorios = [
         descripcion: 'Alerón corto negro satinado',
         precio: '340.000',
 
-        img: '../../public/img/mustang-aleron1.webp' 
+        img: '../../mustang-aleron1.webp' 
     },
     {
         id: 'kuga-tuercas',
@@ -45,7 +45,7 @@ export const accesorios = [
         descripcion: 'Kit Tuercas Antirrobo',
         precio: '50.000',
 
-        img: '../../public/img/tuercas1.webp'
+        img: '../../tuercas1.webp'
     },
     {
         id: 'kuga-alfombra',
@@ -53,7 +53,7 @@ export const accesorios = [
         descripcion: 'Cubrealfombra de Baúl',
         precio: '41.000',
 
-        img: '../../public/img/kuga-cubrealfombre.webp' 
+        img: '../../kuga-cubrealfombre.webp' 
     },
     {
         id: 'kuga-cobertor',
@@ -61,7 +61,7 @@ export const accesorios = [
         descripcion: 'Kit cobertor espacio de carga',
         precio: '107.000',
 
-        img: '../../public/img/kuga-cobertor.webp' 
+        img: '../../kuga-cobertor.webp' 
     },
     {
         id: 'kuga-carpa',
@@ -70,7 +70,7 @@ export const accesorios = [
         precio: '464.000',
 
         litro: '',
-        img: '../../public/img/kuga-carpa.webp' 
+        img: '../../kuga-carpa.webp' 
     },
     {
         id: 'bronco-tuercas',
@@ -78,7 +78,7 @@ export const accesorios = [
         descripcion: 'Kit Tuercas Antirrobo',
         precio: '70.000',
 
-        img: '../../public/img/tuercas1.webp'
+        img: '../../tuercas1.webp'
     },
     {
         id: 'bronco-remolque',
@@ -86,7 +86,7 @@ export const accesorios = [
         descripcion: 'Kit Gancho de Remolque',
         precio: '341.000',
 
-        img: '../../public/img/bronco-remolque.webp'
+        img: '../../bronco-remolque.webp'
     },
     {
         id: 'bronco-bicicleta1',
@@ -94,7 +94,7 @@ export const accesorios = [
         descripcion: 'Portabicicleta Thule',
         precio: '213.000',
 
-        img: '../../public/img/bronco-bici2.webp'
+        img: '../../bronco-bici2.webp'
     },
     {
         id: 'bronco-barras',
@@ -102,7 +102,7 @@ export const accesorios = [
         descripcion: 'Barras Transversales de techo para BIG BEND',
         precio: '228.000',
 
-        img: '../../public/img/bronco-barras.webp'
+        img: '../../bronco-barras.webp'
     },
     {
         id: 'bronco-bicicleta2',
@@ -110,7 +110,7 @@ export const accesorios = [
         descripcion: 'Portabicicleta Yakima',
         precio: '318.000',
 
-        img: '../../public/img/bronco-bici.webp'
+        img: '../../bronco-bici.webp'
     },
     {
         id: 'bronco-baul',
@@ -118,7 +118,7 @@ export const accesorios = [
         descripcion: 'Baúl Portaequipaje 330L',
         precio: '336.000',
 
-        img: '../../public/img/bronco-baul.webp'
+        img: '../../bronco-baul.webp'
     },
     {
         id: 'bronco-canasta',
@@ -126,7 +126,7 @@ export const accesorios = [
         descripcion: 'Portaequipaje tipo canasta con Red',
         precio: '387.000',
 
-        img: '../../public/img/bronco-canasta.webp'
+        img: '../../bronco-canasta.webp'
     },
     {
         id: 'bronco-carpa1',
@@ -134,7 +134,7 @@ export const accesorios = [
         descripcion: 'Carpa Trasera para SUV',
         precio: '464.000',
 
-        img: '../../public/img/bronco-carpa1.webp'
+        img: '../../bronco-carpa1.webp'
     },
     {
         id: 'bronco-carpa2',
@@ -142,7 +142,7 @@ export const accesorios = [
         descripcion: 'Carpa de Techo',
         precio: '1.810.000',
 
-        img: '../../public/img/bronco-carpa2.webp'
+        img: '../../bronco-carpa2.webp'
     },
     {
         id: 'maverick-cobertor',
@@ -150,7 +150,7 @@ export const accesorios = [
         descripcion: 'Cobertor Retractil de apertura Electrica',
         precio: '1.093.000',
 
-        img: '../../public/img/maverick-cobertor.webp'
+        img: '../../maverick-cobertor.webp'
     },
     {
         id: 'maverick-san-antonio',
@@ -158,7 +158,7 @@ export const accesorios = [
         descripcion: 'Barra San Antonio',
         precio: '262.000',
 
-        img: '../../public/img/maverick-san-antonio.webp'
+        img: '../../maverick-san-antonio.webp'
     },
     {
         id: 'maverick-porta-objetos',
@@ -166,7 +166,7 @@ export const accesorios = [
         descripcion: 'Porta Objetos Pivotante lado derecho',
         precio: '191.000',
 
-        img: '../../public/img/maverick-pivotante.webp'
+        img: '../../maverick-pivotante.webp'
     },
     {
         id: 'maverick-bici',
@@ -174,7 +174,7 @@ export const accesorios = [
         descripcion: 'Portabicicleta Yakima',
         precio: '318.000',
 
-        img: '../../public/img/maverick-bici.webp'
+        img: '../../maverick-bici.webp'
     },
     {
         id: 'maverick-carpa',
@@ -182,7 +182,7 @@ export const accesorios = [
         descripcion: 'Carpa de Techo',
         precio: '1.810.000',
 
-        img: '../../public/img/maverick-carpa.webp'
+        img: '../../maverick-carpa.webp'
     },
     {
         id: 'f150-cobertor',
@@ -190,7 +190,7 @@ export const accesorios = [
         descripcion: 'Cobertor retractil',
         precio: '1.835.000',
 
-        img: '../../public/img/f150-cobertor.webp'
+        img: '../../f150-cobertor.webp'
     },
     {
         id: 'f150-deflector1',
@@ -198,7 +198,7 @@ export const accesorios = [
         descripcion: 'Deflector de Aire de capo',
         precio: '95.000',
 
-        img: '../../public/img/f150-deflector1.webp'
+        img: '../../f150-deflector1.webp'
     },
     {
         id: 'f150-deflector2',
@@ -206,7 +206,7 @@ export const accesorios = [
         descripcion: 'Kit Deflectores de aire de ventanillas',
         precio: '57.000',
 
-        img: '../../public/img/f150-deflector2.webp'
+        img: '../../f150-deflector2.webp'
     },
     {
         id: 'f150-organizador',
@@ -214,7 +214,7 @@ export const accesorios = [
         descripcion: 'Organizador porta objetos para caja de carga',
         precio: '140.000',
 
-        img: '../../public/img/f150-organizador.webp'
+        img: '../../f150-organizador.webp'
     },
     {
         id: 'f150-bici',
@@ -222,7 +222,7 @@ export const accesorios = [
         descripcion: 'Funda portabicicletas para tapa de caja de carga',
         precio: '252.000',
  
-        img: '../../public/img/f150-bici.webp'
+        img: '../../f150-bici.webp'
     },
     {
         id: 'f150-carpa',
@@ -230,7 +230,7 @@ export const accesorios = [
         descripcion: 'Carpa para caja de carga',
         precio: '442.000',
 
-        img: '../../public/img/f150-carpa.webp'
+        img: '../../f150-carpa.webp'
     },
     {
         id: 'f150-raptor-cobertor',
@@ -238,7 +238,7 @@ export const accesorios = [
         descripcion: 'Cobertor retractil',
         precio: '1.835.000',
  
-        img: '../../public/img/f150-cobertor.webp'
+        img: '../../f150-cobertor.webp'
     },
     {
         id: 'f150-raptor-deflector',
@@ -246,7 +246,7 @@ export const accesorios = [
         descripcion: 'Kit Deflectores de Aire de Ventanillas',
         precio: '57.000',
 
-        img: '../../public/img/f150-raptor-deflector.webp'
+        img: '../../f150-raptor-deflector.webp'
     },
     {
         id: 'f150-raptor-red-horizontal',
@@ -254,7 +254,7 @@ export const accesorios = [
         descripcion: 'Red Sujecion de carga horizontal',
         precio: '64.000',
 
-        img: '../../public/img/f150-raptor-horizontal.webp'
+        img: '../../f150-raptor-horizontal.webp'
     },
     {
         id: 'f150-raptor-red-vertical',
@@ -262,7 +262,7 @@ export const accesorios = [
         descripcion: 'Red Sujecion de carga vertical',
         precio: '64.000',
 
-        img: '../../public/img/f150-raptor-vertical.webp'
+        img: '../../f150-raptor-vertical.webp'
     },
     {
         id: 'f150-raptor-carpa',
@@ -270,7 +270,7 @@ export const accesorios = [
         descripcion: 'Carpa para caja de carga',
         precio: '442.000',
 
-        img: '../../public/img/f150-carpa.webp'
+        img: '../../f150-carpa.webp'
     },
     {
         id: 'ranger-cobertor',
@@ -278,7 +278,7 @@ export const accesorios = [
         descripcion: 'Cobertor Retractil Electrico',
         precio: '1.190.000',
 
-        img: '../../public/img/ranger-cobertor.webp'
+        img: '../../ranger-cobertor.webp'
     },
     {
         id: 'ranger-protector-radiador',
@@ -286,7 +286,7 @@ export const accesorios = [
         descripcion: 'Protector de radiador',
         precio: '52.000',
 
-        img: '../../public/img/ranger-protector-radiador.webp'
+        img: '../../ranger-protector-radiador.webp'
     },
     {
         id: 'ranger-antirrobo',
@@ -294,7 +294,7 @@ export const accesorios = [
         descripcion: 'Traba antirrobo malacate rueda de auxilio',
         precio: '36.000',
 
-        img: '../../public/img/antirrobo.webp'
+        img: '../../antirrobo.webp'
     },
     {
         id: 'ranger-deflector',
@@ -302,7 +302,7 @@ export const accesorios = [
         descripcion: 'Deflectores de Ventanillas',
         precio: '43.000',
 
-        img: '../../public/img/f150-deflector2.webp'
+        img: '../../f150-deflector2.webp'
     },
     {
         id: 'ranger-deflector-capo',
@@ -310,7 +310,7 @@ export const accesorios = [
         descripcion: 'Deflector de Capó',
         precio: '77.000',
 
-        img: '../../public/img/ranger-protector-capo.webp'
+        img: '../../ranger-protector-capo.webp'
     },
     {
         id: 'ranger-protector-luces',
@@ -318,7 +318,7 @@ export const accesorios = [
         descripcion: 'Kit Protector de Opticas Delanteras Led',
         precio: '76.000',
 
-        img: '../../public/img/ranger-protector-luces.webp'
+        img: '../../ranger-protector-luces.webp'
     },
     {
         id: 'ranger-barras',
@@ -326,7 +326,7 @@ export const accesorios = [
         descripcion: 'Barras Transversales para Caja de Carga',
         precio: '431.000',
 
-        img: '../../public/img/ranger-barras.webp'
+        img: '../../ranger-barras.webp'
     },
     {
         id: 'ranger-bici',
@@ -334,7 +334,7 @@ export const accesorios = [
         descripcion: 'Portabicicleta Yakima',
         precio: '318.000',
 
-        img: '../../public/img/ranger-bici.webp'
+        img: '../../ranger-bici.webp'
     },    
     {
         id: 'ranger-carpa',
@@ -342,7 +342,7 @@ export const accesorios = [
         descripcion: 'Carpa para Caja de Carga',
         precio: '322.000',
 
-        img: '../../public/img/ranger-carpa.webp'
+        img: '../../ranger-carpa.webp'
     },
     {
         id: 'ranger-snorkel',
@@ -350,7 +350,7 @@ export const accesorios = [
         descripcion: 'Snorkel',
         precio: '714.000',
 
-        img: '../../public/img/ranger-snorkel.webp'
+        img: '../../ranger-snorkel.webp'
     },
     {
         id: 'ranger-raptor-cobertor',
@@ -358,7 +358,7 @@ export const accesorios = [
         descripcion: 'Cobertor Retractil Electrico',
         precio: '1.190.000',
 
-        img: '../../public/img/ranger-cobertor.webp'
+        img: '../../ranger-cobertor.webp'
     },
     {
         id: 'ranger-raptor-llanta',
@@ -366,7 +366,7 @@ export const accesorios = [
         descripcion: 'Llanta de Aleación de 17" con Capacidad Beadlock (Solo Raptor)',
         precio: '352.000',
 
-        img: '../../public/img/ranger-raptor-llanta.webp'
+        img: '../../ranger-raptor-llanta.webp'
     },
     {
         id: 'ranger-raptor-antirrobo',
@@ -374,7 +374,7 @@ export const accesorios = [
         descripcion: 'Traba antirrobo malacate rueda de auxilio',
         precio: '36.000',
 
-        img: '../../public/img/antirrobo.webp'
+        img: '../../antirrobo.webp'
     },
     {
         id: 'ranger-raptor-deflector-capo',
@@ -382,7 +382,7 @@ export const accesorios = [
         descripcion: 'Deflector de Capó',
         precio: '77.000',
 
-        img: '../../public/img/ranger-protector-capo.webp'
+        img: '../../ranger-protector-capo.webp'
     },
     {
         id: 'ranger-raptor-deflector',
@@ -390,7 +390,7 @@ export const accesorios = [
         descripcion: 'Deflectores de Ventanillas',
         precio: '43.000',
 
-        img: '../../public/img/f150-deflector2.webp'
+        img: '../../f150-deflector2.webp'
     },
     {
         id: 'ranger-raptor-protector-luces',
@@ -398,7 +398,7 @@ export const accesorios = [
         descripcion: 'Kit Protector de Opticas Delanteras Led',
         precio: '76.000',
 
-        img: '../../public/img/ranger-protector-luces.webp'
+        img: '../../ranger-protector-luces.webp'
     },
     {
         id: 'ranger-raptor-barras',
@@ -406,7 +406,7 @@ export const accesorios = [
         descripcion: 'Barras Transversales para Caja de Carga',
         precio: '431.000',
 
-        img: '../../public/img/ranger-barras.webp'
+        img: '../../ranger-barras.webp'
     },
     {
         id: 'ranger-raptor-bici',
@@ -414,7 +414,7 @@ export const accesorios = [
         descripcion: 'Portabicicleta Yakima',
         precio: '318.000',
 
-        img: '../../public/img/ranger-bici.webp'
+        img: '../../ranger-bici.webp'
     },
     {
         id: 'ranger-raptor-carpa',
@@ -422,7 +422,7 @@ export const accesorios = [
         descripcion: 'Carpa para Caja de Carga',
         precio: '322.000',
 
-        img: '../../public/img/ranger-carpa.webp'
+        img: '../../ranger-carpa.webp'
     }
 
 ]
