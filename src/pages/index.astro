@@ -18,7 +18,13 @@ import Flotante from "../components/Flotante.astro";
 
 	<div class="relative mb-5">
 		<a href="/electrico">
-			<img src="../../public/banner.webp" class="md:py-10" alt="" />
+			<Image 
+				src="/banner.webp"
+				width="1920"
+				height="600"
+				class="md:py-10" 
+				alt="" 
+			/>
 			<h2
 				class="absolute top-5 left-4 text-xl text-white md:top-20 md:left-10 md:text-6xl lg:top-40 lg:left-36"
 			>
@@ -31,9 +37,11 @@ import Flotante from "../components/Flotante.astro";
 		<div
 			class="color-ford mx-2 my-4 bg-white border-gray-200 rounded-lg shadow dark:border-gray-600"
 		>
-			<img
+			<Image
+				src="/ford-historia.webp"
+				width="1280"
+				height="1423"
 				class="rounded-t-lg w-full"
-				src="../../public/ford-historia.webp"
 				alt=""
 			/>
 
@@ -58,7 +66,7 @@ import Flotante from "../components/Flotante.astro";
 		<Card
 			titulo="TODOS LOS MODELOS"
 			descripcion="Conoce tu estilo"
-			imagen="../../public/modelos.webp"
+			imagen="/modelos.webp"
 			id="modelos"
 		/>
 	</div>
@@ -67,7 +75,7 @@ import Flotante from "../components/Flotante.astro";
 		<div class="relative p-2">
 			<a href="/accesorios">
 				<img
-					src="../../public/accesorios.webp"
+					src="/accesorios.webp"
 					alt=""
 					class="rounded-md sombra"
 				/>
@@ -82,7 +90,7 @@ import Flotante from "../components/Flotante.astro";
 		<div class="relative p-2">
 			<a href="/plan">
 				<img
-					src="../../public/plan-ovalo.webp"
+					src="/plan-ovalo.webp"
 					alt=""
 					class="rounded-md sombra"
 				/>
@@ -98,7 +106,7 @@ import Flotante from "../components/Flotante.astro";
 		<div class="relative p-2">
 			<a href="/service">
 				<img
-					src="../../public/service.webp"
+					src="/service.webp"
 					alt=""
 					class="rounded-md sombra"
 				/>
@@ -126,32 +134,32 @@ import Flotante from "../components/Flotante.astro";
 
 	<div class="md:p-5 lg:grid lg:grid-cols-2">
 		<Card2
-			imagen="../../public/territory.webp"
+			imagen="/territory.webp"
 			titulo="Nueva Ford Territory"
 			descripcion="Conoce la nueva generacion."
 			id="1"
 		/>
 		<Card2
-			imagen="../../public/ranger.webp"
+			imagen="/ranger.webp"
 			titulo="Nueva Ford Ranger"
 			descripcion="Conoce la nueva generacion."
 			id="2"
 		/>
 		<Card2
-			imagen="../../public/mustang7gen.webp"
+			imagen="/mustang7gen.webp"
 			titulo="Ford Mustang 7ma Generacion"
 			descripcion="Conoce la nueva generacion."
 			id="3"
 		/>
 		<Card2
-			imagen="../../public/raptor.webp"
+			imagen="/raptor.webp"
 			titulo="Ford Ranger Raptor"
 			descripcion="Descubre la nueva Raptor."
 			id="4"
 		/>
 	</div>
 	<div class="my-20">
-		<img src="../../public/ranger-exp.webp" class="m-auto sombra" alt="" />
+		<img src="/ranger-exp.webp" class="m-auto sombra" alt="" />
 		<div class="mt-5 text-center">
 			<a href="/experience" class="text-xl text-white bg-sky-600 hover:bg-sky-500 rounded-3xl py-1 px-5 sombra"
 				>Inscribirse</a
