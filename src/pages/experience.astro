@@ -1,22 +1,18 @@
 ---
+import { Image } from "astro:assets";
 import Flotante from "../components/Flotante.astro";
 import RedSocial from "../components/RedSocial.astro";
 import Layout from "../layouts/Layout.astro";
+import bannerSM from "../../public/exp.webp";
+import bannerXL from "../../public/ranger-exp.webp";
+
 ---
 
 <Layout title="Ranger Experience">
     <div class="mt-2 text-blue-900">
         <div class="relative">
-            <img
-                src="../../public/exp.webp"
-                class="m-auto w-full lg:hidden"
-                alt=""
-            />
-            <img
-                src="../../public/ranger-exp.webp"
-                class="m-auto w-full hidden lg:flex"
-                alt=""
-            />
+            <Image src={bannerSM} class="m-auto w-full lg:hidden" alt="" />
+            <Image src={bannerXL} class="m-auto w-full hidden lg:flex" alt="" />
         </div>
         <div
             class="absolute top-72 left-1 text-xl text-center text-white sm:bottom-28 sm:left-24 md:top-[30rem] md:left-[9.4rem] xl:left-[20rem] xl:top-[22rem] xl:text-4xl 2xl:top-[28rem] 2xl:left-[35.5rem]"
